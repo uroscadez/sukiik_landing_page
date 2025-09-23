@@ -8,10 +8,12 @@ export default function YachtCharterPage() {
   return (
     <div className="min-h-screen bg-background">
       <YachtHeader />
-      <YachtHero />
-      <YachtSpecs />
-      <YachtGallery />
-      <YachtDescription />
+      <div className="pt-20">
+        <YachtHero />
+        <YachtSpecs />
+        <YachtGallery />
+        <YachtDescription />
+      </div>
     </div>
   )
 }
