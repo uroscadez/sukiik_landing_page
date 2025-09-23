@@ -5,7 +5,7 @@ export function YachtHero() {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{
-          backgroundImage: `url('/y8-2.jpg')`,
+          backgroundImage: `url('/Y8-2.jpg')`,
         }}
       />
 
