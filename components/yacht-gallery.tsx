@@ -18,7 +18,7 @@ export function YachtGallery() {
                 alt="Aerial view of luxury sailing yacht"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+              <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
             </div>
           </Card>
 
