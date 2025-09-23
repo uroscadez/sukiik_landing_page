@@ -1,11 +1,10 @@
 export function YachtHero() {
   return (
     <section className="relative h-screen bg-slate-900 flex items-center justify-center">
-      {/* Background image placeholder - replace with your yacht image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{
-          backgroundImage: `url('/Y8-2.jpg')`,
+          backgroundImage: `url('/yacht-hero-bg.jpg')`,
         }}
       />
 
