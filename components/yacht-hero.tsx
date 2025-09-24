@@ -2,13 +2,13 @@ export function YachtHero() {
   return (
     <section className="relative h-screen bg-slate-900 flex items-center justify-center">
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-40"
+        className="absolute inset-0 bg-cover bg-center opacity-80"
         style={{
-          backgroundImage: `url('/yacht-hero-bg.jpg')`,
+          backgroundImage: `url('/y8-hero-2.jpg')`,
         }}
       />
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white mt-[35%]">
         <h1 className="text-6xl md:text-8xl font-light tracking-widest mb-8">SUUK IIK II</h1>
         <div className="text-sm tracking-wider opacity-80">AVAILABLE FOR CHARTER</div>
         <div className="text-xl tracking-wider opacity-80">CALL/WHATSAPP +386 41 229017</div>
