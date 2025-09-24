@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card"
 
 export function YachtGallery() {
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gray-60 py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <div className="text-sm text-gray-500 tracking-wider mb-2">SUUK IIK II</div>

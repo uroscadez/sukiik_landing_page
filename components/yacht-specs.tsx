@@ -27,8 +27,8 @@ export function YachtSpecs() {
               <div className="font-medium">Sailing Yacht</div>
             </div>
             <div>
-              <div className="text-sm text-gray-500 mb-1">BUILT/REFIT</div>
-              <div className="font-medium">2024/2024</div>
+              <div className="text-sm text-gray-500 mb-1">BUILT</div>
+              <div className="font-medium">2024</div>
             </div>
             <div>
               <div className="text-sm text-gray-500 mb-1">LOCATION & AVAILABILITY</div>
@@ -36,7 +36,7 @@ export function YachtSpecs() {
             </div>
             <div>
               <div className="text-sm text-gray-500 mb-1">PRICE FROM</div>
-              <div className="font-medium">€50,000</div>
+              <div className="font-medium">€42,000</div>
             </div>
             <div>
               <div className="text-sm text-gray-500 mb-1">LENGTH</div>
@@ -67,7 +67,7 @@ export function YachtSpecs() {
             </div>
             <div>
               <div className="text-sm text-gray-500 mb-1">FROM € PER WEEK</div>
-              <div className="font-medium">€50,000 EUR</div>
+              <div className="font-medium">€42,000 EUR</div>
             </div>
           </div>
         </Card>
