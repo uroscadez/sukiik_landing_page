@@ -11,6 +11,7 @@ export function YachtHero() {
       <div className="relative z-10 text-center text-white">
         <h1 className="text-6xl md:text-8xl font-light tracking-widest mb-8">SUUK IIK II</h1>
         <div className="text-sm tracking-wider opacity-80">AVAILABLE FOR CHARTER</div>
+        <div className="text-xl tracking-wider opacity-80">CALL/WHATSAPP +386 41 229017</div>
       </div>
 
       {/* Scroll indicator */}
