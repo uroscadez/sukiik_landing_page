@@ -51,33 +51,33 @@ export function YachtGallery() {
           <Card className="overflow-hidden">
             <div className="aspect-video bg-gray-200 relative group cursor-pointer">
               <img
-                src="/yacht-gallery-2.jpg"
+                src="/gallery2-1.jpg"
                 alt="Luxury yacht anchored in turquoise waters"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+              <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
             </div>
           </Card>
 
           <Card className="overflow-hidden">
             <div className="aspect-video bg-gray-200 relative group cursor-pointer">
               <img
-                src="/yacht-gallery-3.jpg"
+                src="/gallery2-2.jpg"
                 alt="SUSI sailing yacht under sail"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+              <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
             </div>
           </Card>
 
           <Card className="overflow-hidden">
             <div className="aspect-video bg-gray-200 relative group cursor-pointer">
               <img
-                src="/yacht-gallery-7.jpg"
+                src="/gallery2-3.jpg"
                 alt="Large sailing yacht with crew"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+              <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
             </div>
           </Card>
         </div>
