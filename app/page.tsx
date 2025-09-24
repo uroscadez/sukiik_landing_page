@@ -3,6 +3,7 @@ import { YachtSpecs } from "@/components/yacht-specs"
 import { YachtGallery } from "@/components/yacht-gallery"
 import { YachtDescription } from "@/components/yacht-description"
 import { YachtHeader } from "@/components/yacht-header"
+import { ContactBanner } from "@/components/contact-banner"
 
 export default function YachtCharterPage() {
   return (
@@ -14,6 +15,7 @@ export default function YachtCharterPage() {
         <YachtGallery />
         <YachtDescription />
       </div>
+      <ContactBanner />
     </div>
   )
 }
