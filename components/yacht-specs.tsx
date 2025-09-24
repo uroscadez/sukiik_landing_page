@@ -1,7 +1,16 @@
+"use client"
+
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export function YachtSpecs() {
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    })
+  }
+
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
@@ -64,7 +73,13 @@ export function YachtSpecs() {
         </Card>
 
         <div className="text-center">
-          <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">GET IN TOUCH</Button>
+          <Button
+            className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 cursor-pointer"
+            onClick={scrollToBottom}
+            type="button"
+          >
+            MORE INFO
+          </Button>
         </div>
       </div>
     </section>
