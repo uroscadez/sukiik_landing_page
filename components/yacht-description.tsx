@@ -1,6 +1,6 @@
 export function YachtDescription() {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-20">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <div className="text-sm text-gray-500 tracking-wider mb-2">A LITTLE MORE ABOUT</div>
@@ -19,6 +19,8 @@ export function YachtDescription() {
           </p>
         </div>
       </div>
+      <div className="bg-white py-10"></div>
     </section>
+    
   )
 }
