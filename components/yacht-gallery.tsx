@@ -12,9 +12,9 @@ export function YachtGallery() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Main large image */}
           <Card className="md:col-span-2 overflow-hidden">
-            <div className="aspect-video bg-gray-200 relative group cursor-pointer">
+            <div className="bg-gray-200 relative group">
               <img
-                src="/yacht-gallery-5.jpg"
+                src="/gallery-1.jpg"
                 alt="Aerial view of luxury sailing yacht"
                 className="w-full h-full object-cover"
               />
@@ -25,24 +25,24 @@ export function YachtGallery() {
           {/* Side images */}
           <div className="space-y-6">
             <Card className="overflow-hidden">
-              <div className="aspect-video bg-gray-200 relative group cursor-pointer">
+              <div className="bg-gray-200 relative group">
                 <img
-                  src="/yacht-gallery-4.jpg"
+                  src="/gallery-2.jpg"
                   alt="Luxury yacht interior cabin"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+                <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
               </div>
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="aspect-video bg-gray-200 relative group cursor-pointer">
+              <div className="bg-gray-200 relative group">
                 <img
-                  src="/yacht-gallery-6.jpg"
+                  src="/gallery-3.jpg"
                   alt="Sailing yacht with crew on deck"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+                <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
               </div>
             </Card>
           </div>
