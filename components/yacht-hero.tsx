@@ -27,10 +27,7 @@ export function YachtHero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white opacity-60">
-        <div className="text-xs tracking-wider mb-2">SCROLL TO EXPLORE</div>
-        <div className="w-px h-12 bg-white mx-auto opacity-40"></div>
-      </div>
+      
     </section>
   )
 }
