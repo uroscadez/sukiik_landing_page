@@ -16,7 +16,7 @@ export function YachtGallery() {
               <img
                 src="/gallery-1.jpg"
                 alt="Aerial view of luxury sailing yacht"
-                className="w-full h-full object-cover"
+                className="h-full"
               />
               <div className="absolute inset-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
             </div>
